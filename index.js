@@ -18,7 +18,8 @@ function hello() {
 
 function repeat(n, fn) {
     for (let i = 1; i <= n; i++) {
-        return fn(hello[i]);
+        //return fn(i);
+        console.log(fn(i))
     }}
 
     repeat(3, hello);
